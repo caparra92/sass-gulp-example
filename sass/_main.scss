@@ -1,4 +1,4 @@
-
+//partial files should have _ underscore before name
 #main-content {
     width: 80%;
     margin: auto;
@@ -16,7 +16,7 @@
                 margin: 0 10px;
                 border-radius: 3px;
                 overflow: hidden;
-
+                //Use include for import mixin config
                 @include card (rgb(214, 205, 205),(0 4px 8px 0 rgba(0,0,0,0.2)));
             }
         }
