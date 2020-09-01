@@ -1,0 +1,25 @@
+
+footer {
+    background: linear-gradient(180deg, #3a3a3a, #bbb);
+    padding: 20px 0;
+    padding-bottom: 30px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    max-height: 120px;
+    text-align: center;
+    color: #fff;
+
+    .social-media {
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+
+        &-icon {
+            display: inline-block;
+            padding: 0 10px;
+            width: 30px;
+            margin: 15px 10px;
+        }
+    }
+}

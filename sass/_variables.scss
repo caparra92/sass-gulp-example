@@ -1,0 +1,11 @@
+$primary-color: #bb472a;
+$secondary-color: #947203;
+$width : 100% / 5;
+
+@mixin card ($color, $sombra) {
+    border: 1px solid $color;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 1px;
+    box-shadow: $sombra;
+}
